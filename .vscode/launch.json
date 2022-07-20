@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Book",
+            "request": "launch",
+            "mainClass": "demo.Book",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch Book",
+            "request": "launch",
+            "mainClass": "mybooks.Book",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch Library",
+            "request": "launch",
+            "mainClass": "mybooks.Library",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch Library",
+            "request": "launch",
+            "mainClass": "Library",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch Book",
+            "request": "launch",
+            "mainClass": "Book",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
