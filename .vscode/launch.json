@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Library",
+            "request": "launch",
+            "mainClass": "Library.Library",
+            "projectName": "IntroToJava_6beaede0"
+        },
+        {
+            "type": "java",
+            "name": "Launch Book",
+            "request": "launch",
+            "mainClass": "Library.Book",
+            "projectName": "IntroToJava_6beaede0"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleDraw",
+            "request": "launch",
+            "mainClass": "SimpleDraw",
+            "projectName": "IntroToJava_6beaede0"
+        },
+        {
+            "type": "java",
             "name": "Launch Book",
             "request": "launch",
             "mainClass": "demo.Book",

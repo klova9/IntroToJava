@@ -1,5 +1,4 @@
-package demo;
-
+package FooCorp;
 class FooCorporation {
     static double pay(double basepay, int hours) {
         if (hours > 40 && hours < 60) {

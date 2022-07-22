@@ -1,4 +1,4 @@
-package IntroToJava;
+package Marathon;
 class Marathon {
     Marathon() {
     }
