@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch SimpleDraw",
+            "request": "launch",
+            "mainClass": "SimpleDraw.SimpleDraw",
+            "projectName": "IntroToJava_6beaede0"
+        },
+        {
+            "type": "java",
             "name": "Launch Library",
             "request": "launch",
             "mainClass": "Library.Library",
