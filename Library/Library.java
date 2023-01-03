@@ -1,10 +1,5 @@
-package Library;
-
-class Library {
+public class Library {
     // Add the missing implementation to this class
-
-    public Library(String string) {
-    }
 
     public static void main(String[] args) {
         // Create two libraries
@@ -50,23 +45,5 @@ class Library {
         // Print the titles of available from the first library
         System.out.println("Books available in the first library:");
         firstLibrary.printAvailableBooks();
-    }
-
-    private void returnBook(String string) {
-    }
-
-    private void printAvailableBooks() {
-    }
-
-    private void borrowBook(String string) {
-    }
-
-    private void printAddress() {
-    }
-
-    private static void printOpeningHours() {
-    }
-
-    private void addBook(Book book) {
     }
 } 

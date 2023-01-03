@@ -1,19 +1,18 @@
-package Library;
-
 public class Book {
 
     String title;
     boolean borrowed;
     boolean rented;
-
     // Creates a new Book
     public Book(String bookTitle) {
         // Implement this method
+        bookTitle = Book.Book();
     }
    
     // Marks the book as rented
     public void borrowed() {
         // Implement this method
+        
     }
    
     // Marks the book as not rented
@@ -23,14 +22,17 @@ public class Book {
    
     // Returns true if the book is rented, false otherwise
     public boolean isBorrowed() {
-        return borrowed;
         // Implement this method
+        return isBorrowed();
+    }
+    private void rented() {
     }
    
     // Returns the title of the book
     public String getTitle() {
-        return title;
         // Implement this method
+        getTitle(Book.);
+        return getTitle();
     }
 
     public static void main(String[] arguments) {
@@ -44,6 +46,5 @@ public class Book {
         System.out.println("Borrowed? (should be false): " + example.isBorrowed());
     }
 
-    private void rented() {
-    }
+
 } 
