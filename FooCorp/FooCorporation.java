@@ -1,19 +1,21 @@
 package FooCorp;
-class FooCorporation {
-    static double pay(double basepay, int hours) {
-        if (hours > 40 && hours < 60) {
-            double total = 40 * basepay + (hours - 40) * basepay*1.5;
-            return total;
-        } else {
-            double total = hours * basepay;
-            return total;
-        }
-    }   
-     public static void main(String[] args) {
-        System.out.println("Employee 1's pay is $" + pay(7.5, 35));
-        System.out.println("Employee 2's pay is $" + pay(8.2, 47));
-        System.out.println("Employee 3's pay is $" + pay(10, 73));
 
+class FooCorporation {
+    FooCorporation() {
     }
 
+    static double pay(double d, int n) {
+        if (n > 40 && n < 60) {
+            double d2 = 40.0 * d + (double) (n - 40) * d * 1.5;
+            return d2;
+        }
+        double d3 = (double) n * d;
+        return d3;
+    }
+
+    public static void main(String[] stringArray) {
+        System.out.println("Employee 1's pay is $" + FooCorporation.pay(7.5, 35));
+        System.out.println("Employee 2's pay is $" + FooCorporation.pay(8.2, 47));
+        System.out.println("Employee 3's pay is $" + FooCorporation.pay(10.0, 73));
+    }
 }

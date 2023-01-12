@@ -6,79 +6,23 @@
     "configurations": [
         {
             "type": "java",
-            "name": "Launch Book",
+            "name": "Launch monkeyTrouble",
             "request": "launch",
-            "mainClass": "Library.Book",
+            "mainClass": "JavaPractice.WarmUp.Boolean.monkeyTrouble",
             "projectName": "IntroToJava_7ecb2ccf"
         },
         {
             "type": "java",
-            "name": "Launch Library",
+            "name": "Launch sleepIn",
             "request": "launch",
-            "mainClass": "Library.Library",
+            "mainClass": "JavaPractice.WarmUp.Boolean.sleepIn",
             "projectName": "IntroToJava_7ecb2ccf"
         },
         {
             "type": "java",
-            "name": "Launch SimpleDraw",
+            "name": "Launch parrotTrouble",
             "request": "launch",
-            "mainClass": "SimpleDraw.SimpleDraw",
-            "projectName": "IntroToJava_6beaede0"
-        },
-        {
-            "type": "java",
-            "name": "Launch Library",
-            "request": "launch",
-            "mainClass": "Library.Library",
-            "projectName": "IntroToJava_6beaede0"
-        },
-        {
-            "type": "java",
-            "name": "Launch Book",
-            "request": "launch",
-            "mainClass": "Library.Book",
-            "projectName": "IntroToJava_6beaede0"
-        },
-        {
-            "type": "java",
-            "name": "Launch SimpleDraw",
-            "request": "launch",
-            "mainClass": "SimpleDraw",
-            "projectName": "IntroToJava_6beaede0"
-        },
-        {
-            "type": "java",
-            "name": "Launch Book",
-            "request": "launch",
-            "mainClass": "demo.Book",
-            "projectName": "IntroToJava_7ecb2ccf"
-        },
-        {
-            "type": "java",
-            "name": "Launch Book",
-            "request": "launch",
-            "mainClass": "mybooks.Book",
-            "projectName": "IntroToJava_7ecb2ccf"
-        },
-        {
-            "type": "java",
-            "name": "Launch Library",
-            "request": "launch",
-            "mainClass": "mybooks.Library",
-            "projectName": "IntroToJava_7ecb2ccf"
-        },
-        {
-            "type": "java",
-            "name": "Launch Library",
-            "request": "launch",
-            "mainClass": "Library",
-            "projectName": "IntroToJava_7ecb2ccf"
-        },
-        {
-            "type": "java",
-            "name": "Launch Book",
-            "request": "launch",
-            "mainClass": "Book",
+            "mainClass": "JavaPractice.WarmUp.parrotTrouble",
             "projectName": "IntroToJava_7ecb2ccf"
         },
         {
@@ -89,9 +33,86 @@
         },
         {
             "type": "java",
+            "name": "Launch FooCorporation",
+            "request": "launch",
+            "mainClass": "FooCorp.FooCorporation",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
             "name": "Launch GravityCalculator",
             "request": "launch",
-            "mainClass": "GravityCalculator",
+            "mainClass": "GravityCalc.GravityCalculator",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch diff21",
+            "request": "launch",
+            "mainClass": "JavaPractice.diff21",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch monkeyTrouble",
+            "request": "launch",
+            "mainClass": "JavaPractice.monkeyTrouble",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch sleepIn",
+            "request": "launch",
+            "mainClass": "JavaPractice.sleepIn",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch sumDoable",
+            "request": "launch",
+            "mainClass": "JavaPractice.sumDoable",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch isPrime",
+            "request": "launch",
+            "mainClass": "JavaPrep.isPrime",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch mathCalc",
+            "request": "launch",
+            "mainClass": "JavaPrep.mathCalc",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch objectBasics",
+            "request": "launch",
+            "mainClass": "JavaPrep.objectBasics",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch MagicSquares",
+            "request": "launch",
+            "mainClass": "MagicSquares",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch Marathon",
+            "request": "launch",
+            "mainClass": "Marathon.Marathon",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch SimpleDraw",
+            "request": "launch",
+            "mainClass": "SimpleDraw.SimpleDraw",
             "projectName": "IntroToJava_7ecb2ccf"
         }
     ]
