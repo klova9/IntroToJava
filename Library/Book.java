@@ -1,10 +1,8 @@
-package Library;
 
 public class Book {
 
     String title;
     boolean borrowed;
-    boolean rented;
 
     // Creates a new Book
     public Book(String bookTitle) {
@@ -19,18 +17,19 @@ public class Book {
     // Marks the book as not rented
     public void returned() {
         // Implement this method
+        boolean retunBook;
     }
    
     // Returns true if the book is rented, false otherwise
     public boolean isBorrowed() {
-        return borrowed;
         // Implement this method
+        return borrowed;
     }
    
     // Returns the title of the book
     public String getTitle() {
-        return title;
         // Implement this method
+        return title;
     }
 
     public static void main(String[] arguments) {
@@ -44,6 +43,33 @@ public class Book {
         System.out.println("Borrowed? (should be false): " + example.isBorrowed());
     }
 
-    private void rented() {
+    @Override
+    protected Object clone() throws CloneNotSupportedException {
+        // TODO Auto-generated method stub
+        return super.clone();
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        // TODO Auto-generated method stub
+        return super.equals(obj);
+    }
+
+    @Override
+    protected void finalize() throws Throwable {
+        // TODO Auto-generated method stub
+        super.finalize();
+    }
+
+    @Override
+    public int hashCode() {
+        // TODO Auto-generated method stub
+        return super.hashCode();
+    }
+
+    @Override
+    public String toString() {
+        // TODO Auto-generated method stub
+        return super.toString();
     }
 } 

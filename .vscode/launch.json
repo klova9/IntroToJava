@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Book",
+            "request": "launch",
+            "mainClass": "Library.Book",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
+            "name": "Launch Library",
+            "request": "launch",
+            "mainClass": "Library.Library",
+            "projectName": "IntroToJava_7ecb2ccf"
+        },
+        {
+            "type": "java",
             "name": "Launch SimpleDraw",
             "request": "launch",
             "mainClass": "SimpleDraw.SimpleDraw",
